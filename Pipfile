@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+advent-of-code-data = "*"
+parse = "*"
 
 [dev-packages]
 ipykernel = "*"
