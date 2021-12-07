@@ -25,7 +25,8 @@ def fuel_b(positions, alignment_position):
 
 
 def solve_b(data) -> int:
-    return min(fuel_b(data, pos) for pos in range(data.size))
+    average = np.average(data)
+    return min(fuel_b(data, pos) for pos in range(int(average - 1), int(average + 2)))
 
 
 if __name__ == "__main__":
