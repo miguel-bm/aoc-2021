@@ -1,7 +1,11 @@
+from collections import *
+from itertools import *
+from functools import *
+
 from aocd.models import Puzzle
 import numpy as np
-from collections import *
 import parse
+from aocp import *
 
 example = """"""
 example_sol_a: int = None
