@@ -13,7 +13,7 @@ example_sol_b: int = None
 
 
 def parse_input(raw_data: str):
-    return ListParser(str).parse(raw_data)
+    return raw_data.splitlines()
 
 
 legal_closings = {"(": ")", "[": "]", "{": "}", "<": ">"}
