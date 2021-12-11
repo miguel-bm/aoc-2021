@@ -8,6 +8,7 @@ numpy = "*"
 advent-of-code-data = "*"
 parse = "*"
 aocp = "*"
+scipy = "*"
 
 [dev-packages]
 ipykernel = "*"
